@@ -1,5 +1,4 @@
 # AWS Public Subnet
-=============================
 
 This module can be used to deploy an AWS public subnet which is intended to be used with a [nat gateway](https://github.com/fierceventures/terraform-nat-gateway).
 
