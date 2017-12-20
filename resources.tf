@@ -4,6 +4,9 @@ resource "aws_subnet" "public_subnet" {
   cidr_block = "${var.cidr_block}"
   map_public_ip_on_launch = true
   availability_zone = "${var.region}a"
+  tags {
+    name = "${var.env}-${var.name}"
+  }
 }
 
 # To public_subnet public route table
