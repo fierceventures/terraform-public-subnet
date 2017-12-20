@@ -21,7 +21,7 @@ module "public_subnet" {
   source = "github.com/fierceventures/terraform-public-subnet"
   region = "ap-southeast-2"
   env = "test"
-  name = "default"
+  name = "primary"
   vpc_id = "${module.vpc.id}"
   cidr_block = "172.31.1.0/16"
   vpc_main_route_table_id = "${module.vpc.main_route_table_id}"
