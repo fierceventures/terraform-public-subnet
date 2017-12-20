@@ -9,6 +9,7 @@ Module Input Variables
 - `region` - The region in which vpc resides
 - `env` - The environment name
 - `name` - The name of the subnet
+- `vpc_id` - The id of the vpc
 - `cidr_block` - The cidr block for the subnet
 - `vpc_main_route_table_id` - The main route table id of the vpc
 
